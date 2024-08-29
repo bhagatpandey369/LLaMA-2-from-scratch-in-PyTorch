@@ -20,7 +20,7 @@ class ModelArgs:
     max_seq_len: int = 2048
     device: str = None
 
-
+#this is comment for test
 class RMSNorm(nn.Module):
 
     def __init__(self, dim: int, eps: float=1e-5) -> None:
